@@ -5,6 +5,7 @@ import Users from './Users';
 class UserDashboard extends Component {
 
   constructor(props){
+    console.log("constructor")
     super(props);
     this.state = {
         users:users
